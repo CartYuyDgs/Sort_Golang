@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var arr = []int{-9, 2, 1, 4, 22, 0}
+	var arr = []int{-9, 2, 1, 4, 22, 0, -3}
 	fmt.Println(arr)
 	QuickSort(0, len(arr)-1, arr)
 	fmt.Println(arr)
